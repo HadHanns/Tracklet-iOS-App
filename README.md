@@ -2,6 +2,10 @@
 
 Tracklet adalah aplikasi iOS yang memungkinkan Anda untuk mencatat dan melacak transaksi keuangan Anda. Dengan Tracklet, Anda dapat dengan mudah menambahkan transaksi dan melihat visualisasi aktivitas keuangan Anda melalui grafik yang informatif.
 
+> ⓘ **Note** 
+Harap diperhatikan bahwa proyek ini saat ini masih dalam tahap pengembangan dan belum sepenuhnya selesai. Fitur-fitur mungkin belum sepenuhnya diimplementasikan atau mungkin terdapat bug yang perlu diperbaiki.
+
+
 ## Fitur Utama
 
 - **Pencatatan Transaksi**: Tambahkan detail transaksi dengan cepat dan mudah.
