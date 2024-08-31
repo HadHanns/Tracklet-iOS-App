@@ -36,4 +36,4 @@ Tracklet adalah aplikasi iOS yang memungkinkan Anda untuk mencatat dan melacak t
 
 ## Kontak
 
-Untuk pertanyaan atau umpan balik, hubungi [email@domain.com](mailto:hadhanns@gmail.com).
+Untuk pertanyaan atau umpan balik, hubungi [hadhanns@gmail.com](mailto:hadhanns@gmail.com).
