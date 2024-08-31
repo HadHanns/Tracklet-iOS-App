@@ -175,7 +175,7 @@ struct ScreenView: View {
                 .padding([.leading, .trailing])
                 .multilineTextAlignment(.center)
             
-            Spacer()
+            Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
             
             HStack {
                 

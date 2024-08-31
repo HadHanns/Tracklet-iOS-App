@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E5C2DF3D2C80D14200951C06 /* Tracklet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Tracklet.app; path = "/Users/haddadhannansrg/Documents/Belajar Swift/Project/Tracklet 2/build/Debug-iphoneos/Tracklet.app"; sourceTree = "<absolute>"; };
+		E5C2DF3D2C80D14200951C06 /* Tracklet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Tracklet.app; path = "/Users/haddadhannansrg/Documents/Belajar Swift/Project/Tracklet/Tracklet-iOS-App/build/Debug-iphoneos/Tracklet.app"; sourceTree = "<absolute>"; };
 		E5C2DF402C80D14200951C06 /* TrackletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackletApp.swift; sourceTree = "<group>"; };
 		E5C2DF422C80D14300951C06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5C2DF472C80D14400951C06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
