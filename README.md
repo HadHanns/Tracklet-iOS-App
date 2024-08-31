@@ -21,9 +21,9 @@ Tracklet adalah aplikasi iOS yang memungkinkan Anda untuk mencatat dan melacak t
    ```
 
 3. **Buka Proyek di Xcode**:
-   Buka file `.xcworkspace` di Xcode:
+   Buka file `.xcodeproj` di Xcode:
    ```bash
-   open Tracklet.xcworkspace
+   open Tracklet.xcodeproj
    ```
 
 4. **Jalankan Aplikasi**:
