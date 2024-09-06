@@ -6,8 +6,8 @@ Tracklet adalah aplikasi iOS yang memungkinkan Anda untuk mencatat dan melacak t
 Harap diperhatikan bahwa proyek ini saat ini masih dalam tahap pengembangan dan belum sepenuhnya selesai. Fitur-fitur mungkin belum sepenuhnya diimplementasikan atau mungkin terdapat bug yang perlu diperbaiki.
 
 ![alt text](https://github.com/HadHanns/Tracklet-iOS-App/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-09-07%20at%2003.19.54.png?raw=true)
-![alt text](?raw=true)
-![alt text](?raw=true)
+![alt text](https://github.com/HadHanns/Tracklet-iOS-App/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-09-07%20at%2003.27.16.png?raw=true)
+![alt text](https://github.com/HadHanns/Tracklet-iOS-App/blob/main/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-09-07%20at%2003.27.37.png?raw=true)
 
 ## Fitur Utama
 
