@@ -22,10 +22,10 @@
 		E5C2DF662C8199DA00951C06 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = E5C2DF652C8199DA00951C06 /* SwiftUICharts */; };
 		E5C2DF682C81AA5200951C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C2DF672C81AA5200951C06 /* Main.storyboard */; };
 		E5C2DF6A2C81CA7100951C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C2DF692C81CA7000951C06 /* Assets.xcassets */; };
+		E5FFC33C2C8B5912009036B8 /* TransactionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FFC33B2C8B5912009036B8 /* TransactionFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E5C2DF3D2C80D14200951C06 /* Tracklet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Tracklet.app; path = "/Users/haddadhannansrg/Documents/Belajar Swift/Project/Tracklet/Tracklet-iOS-App/build/Debug-iphoneos/Tracklet.app"; sourceTree = "<absolute>"; };
 		E5C2DF402C80D14200951C06 /* TrackletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackletApp.swift; sourceTree = "<group>"; };
 		E5C2DF422C80D14300951C06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5C2DF472C80D14400951C06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -38,6 +38,8 @@
 		E5C2DF5F2C8172B600951C06 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 		E5C2DF672C81AA5200951C06 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E5C2DF692C81CA7000951C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5FFC3322C8A07B7009036B8 /* Tracklet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracklet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FFC33B2C8B5912009036B8 /* TransactionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				E5C2DF672C81AA5200951C06 /* Main.storyboard */,
 				E5C2DF3F2C80D14200951C06 /* Tracklet */,
+				E5FFC3322C8A07B7009036B8 /* Tracklet.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +78,7 @@
 				E5C2DF502C80DF0300951C06 /* TransactionModel.swift */,
 				E5C2DF542C80EA9E00951C06 /* TransactionRow.swift */,
 				E5C2DF462C80D14400951C06 /* Preview Content */,
+				E5FFC33B2C8B5912009036B8 /* TransactionFormView.swift */,
 			);
 			path = Tracklet;
 			sourceTree = "<group>";
@@ -110,7 +114,7 @@
 				E5C2DF652C8199DA00951C06 /* SwiftUICharts */,
 			);
 			productName = Tracklet;
-			productReference = E5C2DF3D2C80D14200951C06 /* Tracklet.app */;
+			productReference = E5FFC3322C8A07B7009036B8 /* Tracklet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -178,6 +182,7 @@
 				E5C2DF412C80D14300951C06 /* TrackletApp.swift in Sources */,
 				E5C2DF5A2C81444A00951C06 /* TransactionListViewModel.swift in Sources */,
 				E5C2DF4F2C80D3CE00951C06 /* Extensions.swift in Sources */,
+				E5FFC33C2C8B5912009036B8 /* TransactionFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

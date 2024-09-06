@@ -25,17 +25,18 @@ struct ContentView : View {
 //MARK: Home Screen
 struct Home: View {
     @EnvironmentObject var transactionListVM: TransactionListViewModel
+    @State private var isShowingTransactionForm = false
     
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
-                    //MARK: Title
+                    // MARK: Title
                     Text("Overview")
                         .font(.title2)
                         .bold()
                     
-                    //MARK: Chart
+                    // MARK: Chart
                     let data = transactionListVM.accumulateTransactions()
                     
                     if !data.isEmpty {
@@ -46,33 +47,47 @@ struct Home: View {
                                 ChartLabel(totalExpenses.formatted(.currency(code: "IDR")), type: .title, format: "$&.02f")
                                 LineChart()
                             }
-                                .background(Color.systemBackground)
+                            .background(Color.systemBackground)
                         }
                         .data(data)
                         .chartStyle(ChartStyle(backgroundColor: Color.systemBackground, foregroundColor: ColorGradient(Color.icon.opacity(0.4), Color.icon)))
                         .frame(height: 250)
                     }
                     
-                    //MARK: Transaction List
-                    RecentTransactionList()         
+                    // MARK: Transaction List
+                    RecentTransactionList()
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
-                
             }
             .background(Color.Background)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                //MARK: Notifications Icon
-                ToolbarItem {
+                // MARK: Tambah Button on the Left
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button(action: {
+                        isShowingTransactionForm = true
+                    }) {
+                        Image(systemName: "plus.circle")
+                            .renderingMode(.template)
+                            .foregroundStyle(Color.Icon, .primary)
+                    }
+                }
+                
+                // MARK: Notifications Icon (bell) on the Right
+                ToolbarItem(placement: .navigationBarTrailing) {
                     Image(systemName: "bell.badge")
                         .renderingMode(.template)
                         .foregroundStyle(Color.Icon, .primary)
                 }
             }
+            // .sheet untuk membuka TransactionFormView
+            .sheet(isPresented: $isShowingTransactionForm) {
+                TransactionFormView()
+            }
         }
         .navigationViewStyle(.stack)
-        .accentColor(.black) //Not Working ahhh I must research again!
+        .accentColor(.black)
     }
 }
 
@@ -109,7 +124,7 @@ struct ScreenView: View {
     var title: String
     var details: String
     
-//    @Binding var currentPage: Int
+    //    @Binding var currentPage: Int
     
     var body: some View {
         VStack {
@@ -235,7 +250,7 @@ struct ContentView_Previews: PreviewProvider {
     }()
     
     static var previews: some View {
-            ContentView()
+        ContentView()
             .environmentObject(transactionListVM)
     }
 }
